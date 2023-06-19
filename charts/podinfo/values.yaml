@@ -7,9 +7,9 @@ backend: #http://backend-podinfo:9898/echo
 backends: []
 
 image:
-  repository: nginx
-  tag: latest
-  #pullPolicy: IfNotPresent
+  repository: ghcr.io/stefanprodan/podinfo
+  tag: 6.3.5
+  pullPolicy: IfNotPresent
 
 ui:
   color: "#2e8b57"  # "#ffd700" #"#2e8b57" #"#34577c"
