@@ -7,7 +7,7 @@ backend: #http://backend-podinfo:9898/echo
 backends: []
 
 image:
-  repository: nginx
+  repository: bitnami/nginx
   tag: 
   pullPolicy: IfNotPresent
 
