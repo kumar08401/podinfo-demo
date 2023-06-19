@@ -8,7 +8,7 @@ backends: []
 
 image:
   repository: nginx
-  tag: latest
+  tag: 
   pullPolicy: IfNotPresent
 
 ui:
