@@ -33,7 +33,7 @@ spec:
       containers:
         - name: {{ .Chart.Name }}
           image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
-          #imagePullPolicy: {{ .Values.image.pullPolicy }}
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
           {{- if .Values.securityContext }}
           securityContext:
             {{- toYaml .Values.securityContext | nindent 12 }}
