@@ -7,7 +7,7 @@ backend: #http://backend-podinfo:9898/echo
 backends: []
 
 image:
-  repository: https://hub.docker.com/layers/kumar08401/maven-web-app
+  repository: https://hub.docker.com/kumar08401/maven-web-app
   tag: latest
   pullPolicy: IfNotPresent
 
